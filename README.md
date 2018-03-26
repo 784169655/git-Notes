@@ -36,7 +36,11 @@
     
     2.6 使用git status 说没有文件需要提交,这时候进入git hub，发现文件已经提交。 
     
-    2.7
+  3.回到过去
+   	3.1 使用git log 可查看提交日志 获得commitID
+   	3.2 执行git reset --hard commitID
+   	3.3 执行git reflog 列出当前版本号之前的版本号， 获取pull 对应的 headID    		3.4 使用git reset --hard headID 会把这个文件 带到现在。
+   		
 
 
     
